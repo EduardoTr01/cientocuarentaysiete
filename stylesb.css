@@ -1,0 +1,32 @@
+.banner {
+    background: linear-gradient(to bottom, #ff0000, #ff8000);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    width: 600px;
+    margin: auto;
+}
+
+.whatsapp-button {
+    display: inline-block;
+    background-color: #25d366;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.whatsapp-logo {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    border-radius: 50%;  /* Hace que el logo sea redondo */
+}
+
+.whatsapp-button span {
+    display: inline-block;
+    vertical-align: middle;
+}
