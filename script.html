@@ -1,0 +1,12 @@
+const linkAutos = document.getElementById('link-autos');
+const modal = document.getElementById('modal');
+const btnCerrar = document.querySelector('.close');
+
+linkAutos.addEventListener('click', (event) => {
+  event.preventDefault(); // Evita que el enlace recargue la página
+  modal.style.display = 'block';
+});
+
+btnCerrar.addEventListener('click', () => {
+  modal.style.display = 'none';
+});
