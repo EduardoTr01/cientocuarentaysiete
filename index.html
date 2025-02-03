@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cientocuarentaysiete</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a73251d4b5.js" crossorigin="anonymous"></script>
+</head>
+</head>
+<div class="inicio">
+    <h1>Cientocuarentaysiete.com</h1>
+</div>
+<hr class="progress-bar">
+<body>
+    <header>
+        <div class="tit">
+            <h2 class="seg">Quiero ver</h2>
+        </div>
+        <div>
+            <nav>
+                <li>
+                    <ul class="busca-menu">
+                        <li class="auto-menu"><a href="#" id="link-autos">Autos</a><div id="auto"><img src="C:\Users\eduar\OneDrive\Escritorio\pagina deautos\QuieroMiAuto\auto.jpg"></div></li>
+                        <div class="modal" id="modal-auto">
+                            <div class="modal-content">
+                              <span class="close">&times;</span>
+                              <button class="comprar" data-vehicle="auto" >Quiero comprar</button>
+                              <button class="vender">Quiero vender</button>
+                            </div>
+                          </div>
+                        <li class="moto-menu"><a href="#"  id="link-moto">Motos</a><div id="moto"><img src="C:\Users\eduar\OneDrive\Escritorio\pagina deautos\QuieroMiAuto\moto.jpg"> </div></li>                        
+                        <div class="modal" id="modal-moto">
+                            <div class="modal-content">
+                              <span class="close">&times;</span>
+                              <button class="comprar" data-vehicle="moto" >Quiero comprar</button>
+                              <button class="vender">Quiero vender</button>
+                            </div>
+                          </div>
+                        <li class="chata-menu"><a href="#" id="link-chata">Chata</a><div id="chata"><img src="C:\Users\eduar\OneDrive\Escritorio\pagina deautos\QuieroMiAuto\chata.jpg"></div></li>              
+                        <div class="modal" id="modal-chata">
+                            <div class="modal-content">
+                              <span class="close">&times;</span>
+                              <button class="comprar" data-vehicle="chata" >Quiero comprar</button>
+                              <button class="vender">Quiero vender</button>
+                            </div>
+                          </div>
+                        <li class="mono-menu"><a href="#" id="link-mono">Monopatin</a><div id="mono"><img src="C:\Users\eduar\OneDrive\Escritorio\pagina deautos\QuieroMiAuto\mono.jpg"></div></li>                        
+                        <div class="modal" id="modal-mono">
+                            <div class="modal-content">
+                              <span class="close">&times;</span>
+                              <button class="comprar" data-vehicle="mono" >Quiero comprar</button>
+                              <button class="vender">Quiero vender</button>
+                            </div>
+                          </div>
+                        <li class="bici-menu"><a href="#" id="link-bici">Bici</a><div id="bici"><img src="C:\Users\eduar\OneDrive\Escritorio\pagina deautos\QuieroMiAuto\biciss.jpg"></div></li>  
+                        <div class="modal" id="modal-bici">
+                            <div class="modal-content">
+                              <span class="close">&times;</span>
+                              <button class="comprar" data-vehicle="bici">Quiero comprar</button>
+                              <button class="vender">Quiero vender</button>
+                            </div>
+                          </div>
+                    </ul>
+                </li>
+
+                <div id="modal-vender" class="modal">
+                      <div class="modal-content">
+                        <p>Buscamos la mejor oferta, las comparamos por vos y te enviamos las 2 o 3 mejores.</p>
+                            <a href="https://wa.me/541162334008?text=Hola%20quiero%20vender%20mi%20auto" class="btn-whatsapp">Avanzar</a>
+                        </div>
+                    </div>                
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h2 class="seg">Quiero un seguro</h2>
+        <li>
+            <ul class="seguros-menu">
+                <li class="li-option">
+                  <button class="btn-cotizar" data-modal="modal-cotizar">Cotizar</button>
+                  <div class="modal" id="modal-cotizar">
+                    <div class="modal-content">
+                      <form id="cotizar-form">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                        <label for="vehiculo">Vehículo:</label>
+                        <input type="text" id="vehiculo" name="vehiculo" required>
+                        <label for="modelo">Modelo:</label>
+                        <input type="text" id="modelo" name="modelo" required>
+                        <label for="anio">Año:</label>
+                        <input type="number" id="anio" name="anio" required>
+                        <button class="btn-cotizar" type="submit">Cotizar</button>
+                      </form>
+                    </div>
+                  </div></li>
+            </ul>
+        </li>
+    </main>
+    <div class="modal-backdrop"></div>
+    <div class="modal" id="modal-vender"></div>
+</body>
+<script src="script.js"></script>
+<span>Nuestras redes sociales</span><br>
+<ul class="social-icons">
+  <li>
+    <a href="https://www.whatsapp.com/" target="_blank" rel="noopener noreferrer">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+  </li>
+  <li>
+    <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+      <i class="fab fa-instagram"></i>
+    </a>
+  </li>
+  <li>
+    <a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer">
+      <i class="fab fa-tiktok"></i>
+    </a>
+  </li>
+  <li>
+    <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+      <i class="fab fa-facebook-f"></i>
+    </a>
+  </li>
+</ul>
+<span></span>
+<hr class="progress-bar">
+<footer>
+    <div class="fot">Powered by  <strong>   Build your paradise</strong></div>
+    <div><p class="publi">Construyamos tu sueño. Empecemos hoy...<a class="publi" href="https://wa.me/5491167828407" target="_blank"><i class="fa-brands fa-2x fa-whatsapp publi" aria-hidden="true"></i></a></p></div>
+</footer>
+</html>
+
